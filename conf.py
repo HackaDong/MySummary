@@ -34,7 +34,8 @@ major, minor, patch = sphinx.version_info[:3]
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest',
+extensions = ['sphinx_rtd_theme',
+    'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.intersphinx',
     'sphinx.ext.mathjax',
